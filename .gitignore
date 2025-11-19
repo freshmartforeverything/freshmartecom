@@ -1,0 +1,23 @@
+# Exclude environment variables from the server directory
+/server/.env
+
+# Exclude environment variables from the client directory (e.g., a React app)
+/client/.env
+
+# Optional: You might also want to ignore other common files/directories
+# used in React/Node.js projects that shouldn't be committed.
+
+# Node dependencies
+/node_modules
+
+# Build artifacts for the server
+/server/dist
+/server/build
+
+# Build artifacts for the client (common for React/Webpack)
+/client/build
+/client/dist
+
+/client/.cache
+/client/node_modules
+/server/node_modules
